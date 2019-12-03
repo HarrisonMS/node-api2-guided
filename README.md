@@ -15,3 +15,20 @@ In this project we will learn how to create a very simple Web API using `Node.js
 - [ ] type `npm i` to download dependencies.
 
 Please follow along as the instructor builds the API step by step.
+
+
+
+
+ROUTING NOTES
+
+we write codes for humans, optimized for readability
+
+
+TERMINOLOGY 
+
+Separation of Concerns answers.. "who should be doing this"
+
+##ROUTING   
+use ti to break up an application/api into a sub application
+picking the code to execute based on url and http Method
+used for managing sub resources j(comments on a blog post are a sub resource)
