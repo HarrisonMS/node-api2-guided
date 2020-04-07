@@ -76,7 +76,7 @@ router.put('/:id', (req, res) => {
   Hubs.update(req.params.id, changes)
   .then(hub => {
     if (hub) {
-      res.status(200).json(hub);
+      res.status(200).json(hubs);
     } else {
       res.status(404).json({ message: 'The hub could not be found' });
     }
